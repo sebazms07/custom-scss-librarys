@@ -1,0 +1,28 @@
+@use './colors.scss' as *;
+
+
+
+:root {
+    --root_brand_primary_scale_00:#3C2085;
+    --root_brand_primary_scale_01:#3D3893;
+    --root_brand_primary_scale_03:#505FA1;
+    --root_brand_primary_scale_04:#6985AE;
+    --root_brand_primary_scale_05:#81A6BC;
+    --root_brand_primary_scale_06:#9AC2C9;
+    --root_brand_secondary:#0C0839;
+    --root_brand_tertiary:#1B105D;
+    // Action colors
+    --root_primary_action:#ABE542;
+    --root_secondary_action:#8F97A2;
+    // Boolean colors
+    --root_positive:#15FF93;
+    --root_negative:#F04F8D;
+    //Backgrounds
+    --root_background_blue:#233946;
+    //Basic colors
+    --root_white_normal:#f9f9f9;
+    --root_black_normal:#1C1D21;
+}
+
+
+

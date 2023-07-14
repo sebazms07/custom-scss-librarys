@@ -1,0 +1,28 @@
+{
+  "name": "design-system-b",
+  "version": "1.0.0",
+  "description": "a little example about design library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raul Meneses",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  },
+  "exports": {
+    "./tokens/colors": {
+      "sass": "./scss/tokens/colors.scss"
+    },
+    "./foundation/card": {
+      "sass": "./scss/foundation/molecules/card-foundations.scss"
+    },
+    "./foundation/button": {
+      "sass": "./scss/foundation/atoms/button-foundations.scss"
+    }
+  }
+}
