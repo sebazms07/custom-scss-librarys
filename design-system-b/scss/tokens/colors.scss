@@ -8,13 +8,14 @@
 
 // Brand colors
 :host {
-    --brand_primary_scale_00: #852020;
-    --brand_primary_scale_01: #933838;
-    --brand_primary_scale_03: #a15050;
-    --brand_primary_scale_04: #ae6969;
-    --brand_primary_scale_05: #bc8181;
-    --brand_primary_scale_06: #c99a9a;
-    --brand_secondary: #0C0839;
+    --brand_primary_scale_00:#F9F5F6;
+    --brand_primary_scale_01:#F8E8EE;
+    --brand_primary_scale_03:#FDCEDF;
+    --brand_primary_scale_04:#F2BED1;
+    --brand_primary_scale_05:#d896c7;
+    --brand_primary_scale_06:#f36dd1;
+
+    --brand_secondary: #FFDBAA;
     --brand_tertiary: #1B105D;
     // Action colors
     --primary_action: #ABE542;
@@ -27,4 +28,7 @@
     //Basic colors
     --white_normal: #f9f9f9;
     --black_normal: #1C1D21;
+
+    //
+    
 }

@@ -14,10 +14,22 @@
     --custom-card-title-color: var(--white_normal);
     --custom-card-text-color: var(--white_normal);
     --custom-card-border-radius: 20px;
-    --custom-card-icon-status-color: var(--brand_primary_scale_04);;
+    --custom-card-icon-status-color: var(--brand_primary_scale_04);
 }
 
 :host(.theme-dark) {
+    --custom-card-background: var(--brand_primary_scale_06);
+    --custom-card-title-color: var(--black-normal);
+    --custom-card-text-color: var(--black-normal);
+    --custom-card-border-radius: none;
+}
+:host(.theme-sufi) {
+    --custom-card-background: var(--brand_primary_scale_06);
+    --custom-card-title-color: var(--black-normal);
+    --custom-card-text-color: var(--black-normal);
+    --custom-card-border-radius: none;
+}
+:host(.theme-sufi-black) {
     --custom-card-background: var(--brand_primary_scale_06);
     --custom-card-title-color: var(--black-normal);
     --custom-card-text-color: var(--black-normal);

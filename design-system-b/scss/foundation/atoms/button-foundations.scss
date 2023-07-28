@@ -9,11 +9,12 @@
 @use '../../tokens/colors.scss' as *;
 
 :host {
-  --custom-btn-background: var( --brand_primary_scale_00);
+  --custom-btn-background: var( --brand_primary_scale_06);
   --custom-btn-hover-color: var( --secondary_action);
+  --custom-btn-radius: none;
 }
 
 :host(.theme-dark) {
-  --custom-btn-background: var(--brand_primary_scale_04);
+  --custom-btn-background: var(--brand_primary_scale_05);
 }
 
